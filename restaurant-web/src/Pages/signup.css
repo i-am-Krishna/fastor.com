@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+.main_heading{
+font-size: 1.6rem;
+}
+.second_line{
+    font-size: .7rem;
+    color: gray;
+    padding: .5rem;
+}
+
+input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: .5rem;
+    border: .01rem solid ;
+    outline: none;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+input:last-child{
+    color: white;
+    background: rgb(247, 70, 99);
+}

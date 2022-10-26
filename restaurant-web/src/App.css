@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+}
+body{
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  margin: 20px;
+  background: #313b77;
+}
+
+.App {
+  text-align: center;
+
+}
+
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: 300px;
+  border: 2px solid;
+  margin: 20px;
+
+  }
+}
